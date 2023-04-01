@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DBShop</string>
+
+    <string name="settings">Настройки</string>
+    <string name="notes">Записи</string>
+    <string name="shop_list">Товары</string>
+    <string name="new_item">Добавить</string>
+
+</resources>
