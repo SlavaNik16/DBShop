@@ -1,14 +1,12 @@
 package com.example.dbshop.db
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 import com.example.dbshop.entities.NoteItem
 import kotlinx.coroutines.flow.Flow
 
-@Dao
+@androidx.room.Dao
 interface Dao {
-    @Query("SELECT * FROM note_list")
+    @Query("SELECT * FROM NoteItem")
     fun getAllNotes(): Flow<List<NoteItem>>
 
     @Insert

@@ -1,8 +1,6 @@
 package com.example.dbshop.entities
 
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.PrimaryKey
+import androidx.room.*
 
 @Entity(tableName = "Library")
 data class LibraryItem (
@@ -10,5 +8,5 @@ data class LibraryItem (
     val  id: Int?,
 
     @ColumnInfo(name = "name")
-    val name: String,
+    val name: String
 )

@@ -1,8 +1,6 @@
 package com.example.dbshop.entities
 
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.PrimaryKey
+import androidx.room.*
 
 @Entity(tableName = "Shopping_list_name")
 data class ShoppingListName(

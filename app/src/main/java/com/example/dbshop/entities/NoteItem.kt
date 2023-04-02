@@ -1,9 +1,6 @@
 package com.example.dbshop.entities
 
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-
+import androidx.room.*
 @Entity(tableName = "NoteItem")
 data class NoteItem (
     @PrimaryKey(autoGenerate = true)
